@@ -1,0 +1,21 @@
+{
+  "name": "example-static-bowtie-app",
+  "version": "1.0.0",
+  "description": "Example bowtie application",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.1",
+    "bower-files": "^3.11.3",
+    "bowtie-js": "0.0.8",
+    "browser-sync": "^2.10.0",
+    "del": "^2.2.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-less": "^3.0.5",
+    "gulp-uglify": "^1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

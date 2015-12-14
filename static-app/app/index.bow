@@ -1,0 +1,33 @@
+extend "templates/template.bow"
+
+div.jumbotron {
+  h1: "Greetings!"
+  p.lead: "Welcome to Bowtie!"
+  p {
+    a.btn.btn-lg.btn-success(href="#" role="button"): "Learn more..."
+  }
+}
+
+div.row.marketing {
+  div.col-lg-6 {
+    h4: "Subheading"
+    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+
+    h4: "Subheading"
+    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+
+    h4: "Subheading"
+    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+  }
+
+  div.col-lg-6 {
+    h4: "Subheading"
+    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+
+    h4: "Subheading"
+    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+
+    h4: "Subheading"
+    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+  }
+}
