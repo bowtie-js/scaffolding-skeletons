@@ -1,5 +1,12 @@
 extend "templates/template.bow"
 
+$section -> ($title) {
+  div.col-lg-6 {
+    h4: $title
+    bowtie:content
+  }
+}
+
 div.jumbotron {
   h1: "Greetings!"
   p.lead: "Welcome to Bowtie!"
@@ -9,25 +16,30 @@ div.jumbotron {
 }
 
 div.row.marketing {
-  div.col-lg-6 {
-    h4: "Subheading"
-    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
-
-    h4: "Subheading"
-    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
-
-    h4: "Subheading"
-    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+  $section("Lorem ipsum") {
+    p {
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+      "Aenean maximus tempus sodales. Duis ornare aliquam bibendum. "
+      "Ut viverra libero eu dui consectetur tincidunt. "
+      "Nam vel ex ut quam volutpat iaculis. Sed aliquet lacus sapien. "
+      "Curabitur faucibus massa vitae cursus suscipit. Vestibulum at "
+      "mauris accumsan nulla pharetra molestie. Cras pellentesque eu "
+      "sem in rhoncus. Duis sed interdum magna. In fringilla ullamcorper "
+      "magna nec tristique."
+    }
   }
 
-  div.col-lg-6 {
-    h4: "Subheading"
-    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
-
-    h4: "Subheading"
-    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
-
-    h4: "Subheading"
-    p: "Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum."
+  $section("Lorem ipsum") {
+    p {
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+      "Aenean maximus tempus sodales. Duis ornare aliquam bibendum. "
+      "Ut viverra libero eu dui consectetur tincidunt. "
+      "Nam vel ex ut quam volutpat iaculis. Sed aliquet lacus sapien. "
+      "Curabitur faucibus massa vitae cursus suscipit. Vestibulum at "
+      "mauris accumsan nulla pharetra molestie. Cras pellentesque eu "
+      "sem in rhoncus. Duis sed interdum magna. In fringilla ullamcorper "
+      "magna nec tristique."
+    }
   }
+
 }

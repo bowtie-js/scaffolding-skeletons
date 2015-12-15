@@ -3,6 +3,6 @@ meta(http-equiv="X-UA-Compatible" content="IE=edge")
 meta(name="viewport" content="width=device-width, initial-scale=1")
 meta(name="description" content)
 meta(name="author" content)
-
+script(src="/js/vendors/vendors.js")
 link(rel="stylesheet" href="/style/vendors/bootstrap.css")
 link(rel="stylesheet" href="/style/example.css")

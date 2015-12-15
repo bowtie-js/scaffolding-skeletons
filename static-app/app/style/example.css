@@ -23,7 +23,6 @@ body {
   margin-bottom: 0;
   line-height: 40px;
 }
-
 /* Custom page footer */
 .footer {
   padding-top: 19px;
@@ -76,4 +75,8 @@ body {
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+h4 {
+  text-align: center;
 }
